@@ -9,8 +9,8 @@ using namespace std;
 
 const int MAX_SOLUTIONS = 5;
 array<char, 26> globalLetterBank = {0}; //a = 0, b = 1, etc. Counts how many of each letter exists
-int lbStartIndex;
-int lbEndIndex;
+char lbStartIndex;
+char lbEndIndex;
 
 struct Node {
     float cost;
@@ -19,20 +19,16 @@ struct Node {
 
 vector<Node> getNeighbors(const Node &parent) {
     vector<Node> neighbors;
-    //calculate the letter bank
-    //version: copying global
-    //array<char, 26> tempLetterBank = globalLetterBank;
     for (auto &c : parent.partialSolution) {
         globalLetterBank[c]--;
     }
     //create a neighbor by removing 1 from each letterbank and appending to the end of a new child's partial solution
     char parentLastLetter = parent.partialSolution.back();
 
-    for (int k = lbStartIndex; k < lbEndIndex; k++) {
+    for (char k = lbStartIndex; k < lbEndIndex; k++) {
         if (globalLetterBank[k] > 0) {
             Node child(parent);
-            child.cost = parent.cost + bigram[parentLastLetter][k];
-            child.partialSolution = parent.partialSolution;
+            child.cost += bigram[parentLastLetter][k];
             child.partialSolution.push_back(k);
             neighbors.push_back(std::move(child));
         }
@@ -57,7 +53,7 @@ int main(int argc, char **argv) {
     std::transform(word.begin(), word.end(), word.begin(), ::tolower);
 
     for (auto &c : word) {
-        ++globalLetterBank[c - 'a']; //normalize
+        globalLetterBank[c - 'a']++; //normalize
     }
     for (lbStartIndex = 0; lbStartIndex < 26; lbStartIndex++) {
         if (globalLetterBank[lbStartIndex] != 0)
@@ -71,11 +67,9 @@ int main(int argc, char **argv) {
     priority_queue<Node> frontier;
     vector<Node> solutions;
 
-    for (int k = lbStartIndex; k < lbEndIndex; k++) {
+    for (char k = lbStartIndex; k < lbEndIndex; k++) {
         if (globalLetterBank[k] > 0) {
-            Node root;
-            root.cost = unigram[k];
-            root.partialSolution.push_back(k);
+            Node root = {unigram[k], {k}};
             frontier.push(std::move(root));
         }
     }
@@ -106,5 +100,14 @@ int main(int argc, char **argv) {
         cout << " " << n.cost << endl;
     }
 
-    return 0;
+//    for (int r = 0; r < 26; r++) {
+//        cout << "{";
+//        for (int c = 0; c < 26; c++) {
+//            cout << (int) (bigram[r][c] * 100000) << (c < 25 ? ", " : "");
+//        }
+//        cout << "}, " << endl;
+//    }
+
+    exit(0);
+    //return 0;
 }
