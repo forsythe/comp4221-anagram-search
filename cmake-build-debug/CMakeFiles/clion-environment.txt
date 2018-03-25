@@ -1,4 +1,0 @@
-ToolSet: 3.20@c:\Eclipse for cpp\eclipse-4.4\cpp\MinGW
-Options: 
-
-Options:
