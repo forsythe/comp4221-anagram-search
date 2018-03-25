@@ -56,38 +56,38 @@ CMAKE_SOURCE_DIR = /homes/hsuab/comp4221_nlp/anagram_embedded/comp4221_anagram_s
 CMAKE_BINARY_DIR = /homes/hsuab/comp4221_nlp/anagram_embedded/comp4221_anagram_search
 
 #=============================================================================
-# Target rules for target CMakeFiles/hw1anagram_embedded.dir
+# Target rules for target CMakeFiles/top5anagram.dir
 
 # All Build rule for target.
-CMakeFiles/hw1anagram_embedded.dir/all:
-	$(MAKE) -f CMakeFiles/hw1anagram_embedded.dir/build.make CMakeFiles/hw1anagram_embedded.dir/depend
-	$(MAKE) -f CMakeFiles/hw1anagram_embedded.dir/build.make CMakeFiles/hw1anagram_embedded.dir/build
+CMakeFiles/top5anagram.dir/all:
+	$(MAKE) -f CMakeFiles/top5anagram.dir/build.make CMakeFiles/top5anagram.dir/depend
+	$(MAKE) -f CMakeFiles/top5anagram.dir/build.make CMakeFiles/top5anagram.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /homes/hsuab/comp4221_nlp/anagram_embedded/comp4221_anagram_search/CMakeFiles  1
-	@echo "Built target hw1anagram_embedded"
-.PHONY : CMakeFiles/hw1anagram_embedded.dir/all
+	@echo "Built target top5anagram"
+.PHONY : CMakeFiles/top5anagram.dir/all
 
 # Include target in all.
-all: CMakeFiles/hw1anagram_embedded.dir/all
+all: CMakeFiles/top5anagram.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/hw1anagram_embedded.dir/rule: cmake_check_build_system
+CMakeFiles/top5anagram.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /homes/hsuab/comp4221_nlp/anagram_embedded/comp4221_anagram_search/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/hw1anagram_embedded.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/top5anagram.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /homes/hsuab/comp4221_nlp/anagram_embedded/comp4221_anagram_search/CMakeFiles 0
-.PHONY : CMakeFiles/hw1anagram_embedded.dir/rule
+.PHONY : CMakeFiles/top5anagram.dir/rule
 
 # Convenience name for target.
-hw1anagram_embedded: CMakeFiles/hw1anagram_embedded.dir/rule
-.PHONY : hw1anagram_embedded
+top5anagram: CMakeFiles/top5anagram.dir/rule
+.PHONY : top5anagram
 
 # clean rule for target.
-CMakeFiles/hw1anagram_embedded.dir/clean:
-	$(MAKE) -f CMakeFiles/hw1anagram_embedded.dir/build.make CMakeFiles/hw1anagram_embedded.dir/clean
-.PHONY : CMakeFiles/hw1anagram_embedded.dir/clean
+CMakeFiles/top5anagram.dir/clean:
+	$(MAKE) -f CMakeFiles/top5anagram.dir/build.make CMakeFiles/top5anagram.dir/clean
+.PHONY : CMakeFiles/top5anagram.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/hw1anagram_embedded.dir/clean
+clean: CMakeFiles/top5anagram.dir/clean
 .PHONY : clean
 
 #=============================================================================

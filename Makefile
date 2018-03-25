@@ -102,24 +102,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hw1anagram_embedded
+# Target rules for targets named top5anagram
 
 # Build rule for target.
-hw1anagram_embedded: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hw1anagram_embedded
-.PHONY : hw1anagram_embedded
+top5anagram: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 top5anagram
+.PHONY : top5anagram
 
 # fast build rule for target.
-hw1anagram_embedded/fast:
-	$(MAKE) -f CMakeFiles/hw1anagram_embedded.dir/build.make CMakeFiles/hw1anagram_embedded.dir/build
-.PHONY : hw1anagram_embedded/fast
+top5anagram/fast:
+	$(MAKE) -f CMakeFiles/top5anagram.dir/build.make CMakeFiles/top5anagram.dir/build
+.PHONY : top5anagram/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/hw1anagram_embedded.dir/build.make CMakeFiles/hw1anagram_embedded.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/top5anagram.dir/build.make CMakeFiles/top5anagram.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -127,7 +127,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/hw1anagram_embedded.dir/build.make CMakeFiles/hw1anagram_embedded.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/top5anagram.dir/build.make CMakeFiles/top5anagram.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -135,7 +135,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/hw1anagram_embedded.dir/build.make CMakeFiles/hw1anagram_embedded.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/top5anagram.dir/build.make CMakeFiles/top5anagram.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -145,8 +145,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... hw1anagram_embedded"
 	@echo "... rebuild_cache"
+	@echo "... top5anagram"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

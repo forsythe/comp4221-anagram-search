@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/homes/hsuab/comp4221_nlp/anagram_embedded/comp4221_anagram_search/main.cpp
+iostream
+-
+limits
+-
+vector
+-
+queue
+-
+algorithm
+-
+probabilities.h
+/homes/hsuab/comp4221_nlp/anagram_embedded/comp4221_anagram_search/probabilities.h
+
+/homes/hsuab/comp4221_nlp/anagram_embedded/comp4221_anagram_search/probabilities.h
+
