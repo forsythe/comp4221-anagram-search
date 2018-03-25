@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/hw1anagram_embedded/main.cpp
+iostream
+-
+limits
+-
+vector
+-
+queue
+-
+algorithm
+-
+probabilities.h
+C:/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/hw1anagram_embedded/probabilities.h
+
+C:/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/hw1anagram_embedded/probabilities.h
+
