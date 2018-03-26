@@ -1,3 +1,1 @@
-/media/forsythe/WIN10/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/top5anagram/code for generating probabilities/CMakeFiles/edit_cache.dir
-/media/forsythe/WIN10/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/top5anagram/code for generating probabilities/CMakeFiles/rebuild_cache.dir
-/media/forsythe/WIN10/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/top5anagram/code for generating probabilities/CMakeFiles/probability_generator.dir
+/homes/hsuab/comp4221_nlp/anagram_embedded/comp4221_anagram_search/code for generating probabilities/CMakeFiles/probability_generator.dir

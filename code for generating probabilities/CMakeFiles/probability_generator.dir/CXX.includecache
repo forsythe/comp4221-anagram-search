@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/media/forsythe/WIN10/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/top5anagram/code for generating probabilities/Serializer.cpp
+/homes/hsuab/comp4221_nlp/anagram_embedded/comp4221_anagram_search/code for generating probabilities/Serializer.cpp
 fstream
 -
 iostream
@@ -14,19 +14,19 @@ iostream
 algorithm
 -
 Serializer.h
-/media/forsythe/WIN10/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/top5anagram/code for generating probabilities/Serializer.h
+/homes/hsuab/comp4221_nlp/anagram_embedded/comp4221_anagram_search/code for generating probabilities/Serializer.h
 
-/media/forsythe/WIN10/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/top5anagram/code for generating probabilities/Serializer.h
+/homes/hsuab/comp4221_nlp/anagram_embedded/comp4221_anagram_search/code for generating probabilities/Serializer.h
 string
 -
 map
 -
 
-/media/forsythe/WIN10/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/top5anagram/code for generating probabilities/main.cpp
+/homes/hsuab/comp4221_nlp/anagram_embedded/comp4221_anagram_search/code for generating probabilities/main.cpp
 iostream
 -
 fstream
 -
 Serializer.h
-/media/forsythe/WIN10/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/top5anagram/code for generating probabilities/Serializer.h
+/homes/hsuab/comp4221_nlp/anagram_embedded/comp4221_anagram_search/code for generating probabilities/Serializer.h
 
