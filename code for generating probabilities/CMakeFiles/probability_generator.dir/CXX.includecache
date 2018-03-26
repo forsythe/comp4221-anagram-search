@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/forsythe/WIN10/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/top5anagram/code for generating probabilities/Serializer.cpp
+fstream
+-
+iostream
+-
+algorithm
+-
+Serializer.h
+/media/forsythe/WIN10/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/top5anagram/code for generating probabilities/Serializer.h
+
+/media/forsythe/WIN10/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/top5anagram/code for generating probabilities/Serializer.h
+string
+-
+map
+-
+
+/media/forsythe/WIN10/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/top5anagram/code for generating probabilities/main.cpp
+iostream
+-
+fstream
+-
+Serializer.h
+/media/forsythe/WIN10/Users/Forsythe/Dropbox/College/Year 3/Spring/COMP4221 NLP/assignments/top5anagram/code for generating probabilities/Serializer.h
+
